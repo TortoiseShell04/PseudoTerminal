@@ -59,6 +59,7 @@ namespace PseudoTerminal
                 {
                     low.Lower();
                 }
+                
             }
         }
     }
