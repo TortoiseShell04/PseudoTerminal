@@ -1,0 +1,15 @@
+/home/bruh/Terminal/bin/Debug/net7.0/Terminal
+/home/bruh/Terminal/bin/Debug/net7.0/Terminal.deps.json
+/home/bruh/Terminal/bin/Debug/net7.0/Terminal.runtimeconfig.json
+/home/bruh/Terminal/bin/Debug/net7.0/Terminal.dll
+/home/bruh/Terminal/bin/Debug/net7.0/Terminal.pdb
+/home/bruh/Terminal/obj/Debug/net7.0/Terminal.csproj.AssemblyReference.cache
+/home/bruh/Terminal/obj/Debug/net7.0/Terminal.GeneratedMSBuildEditorConfig.editorconfig
+/home/bruh/Terminal/obj/Debug/net7.0/Terminal.AssemblyInfoInputs.cache
+/home/bruh/Terminal/obj/Debug/net7.0/Terminal.AssemblyInfo.cs
+/home/bruh/Terminal/obj/Debug/net7.0/Terminal.csproj.CoreCompileInputs.cache
+/home/bruh/Terminal/obj/Debug/net7.0/Terminal.dll
+/home/bruh/Terminal/obj/Debug/net7.0/refint/Terminal.dll
+/home/bruh/Terminal/obj/Debug/net7.0/Terminal.pdb
+/home/bruh/Terminal/obj/Debug/net7.0/Terminal.genruntimeconfig.cache
+/home/bruh/Terminal/obj/Debug/net7.0/ref/Terminal.dll
