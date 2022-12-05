@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GPtsgN7z/Lyr/PesiboVnYG8icQcYFo1DlrH2ea8IqySlNRviNmyZD+nSbWt3YZJ+K8mcd5AIpSz1c7rHxyx8g==",
+  "dgSpecHash": "QFk+sa5pwchLPkMzNNp9Zky5ylEv8edY2vF+F+p/Qq50bJj1Scgh4xQjOfDbznkc+pJAkXZS6kWP/VEjwUFo3w==",
   "success": true,
-  "projectFilePath": "/home/bruh/Terminal/Terminal.csproj",
+  "projectFilePath": "/home/bruh/Terminal/PseudoTerminal/Terminal.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

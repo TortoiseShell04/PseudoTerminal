@@ -1,10 +1,11 @@
 using System;
-namespace App
+namespace PseudoTerminal
 {
     class Terminal
     {
         // CLASS REFRENCES
         static Timer time = new Timer();
+        static LowerCase low = new LowerCase();
         static Help help = new Help();
         static RockPaperScissors rock = new RockPaperScissors();
         static StringDissect stringsAct= new StringDissect();
@@ -53,6 +54,10 @@ namespace App
                 if (command == "timer")
                 {
                     time.Time();
+                }
+                if (command == "lower")
+                {
+                    low.Lower();
                 }
             }
         }

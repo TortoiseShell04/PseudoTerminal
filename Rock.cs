@@ -1,5 +1,5 @@
 using System;
-namespace App
+namespace PseudoTerminal
 {
     class RockPaperScissors
     {
