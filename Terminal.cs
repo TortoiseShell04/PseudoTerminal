@@ -4,12 +4,13 @@ namespace PseudoTerminal
     class Terminal
     {
         // CLASS REFRENCES
-        static Timer time = new Timer();
-        static LowerCase low = new LowerCase();
-        static Help help = new Help();
-        static RockPaperScissors rock = new RockPaperScissors();
-        static StringDissect stringsAct= new StringDissect();
-        static FunIsFun fun = new FunIsFun();
+        static readonly Timer time = new();
+        static readonly ExitApp exit = new();
+        static readonly LowerCase low = new();
+        static readonly Help help = new();
+        static readonly RockPaperScissors rock = new();
+        static readonly StringDissect stringsAct= new();
+        static readonly FunIsFun fun = new();
 
         // VARIABLES FOR STRING INPUT AND TITLE SCREEN
         static string command = "Command goes here";
@@ -30,34 +31,31 @@ namespace PseudoTerminal
                 Console.Write("/>>> ");
                 command = Console.ReadLine();
 
-                if (command == "string")
-                {
-                    stringsAct.stringOperation();
-                }
-                if (command == "fun")
-                {
-                    fun.FunVal();
-                    
-                }
-                if (command == "exit")
-                {
-                    break;
-                }
-                if (command == "rock")
-                {
-                    rock.RockP();
-                }
-                if (command == "help")
-                {
-                    help.help();
-                }
-                if (command == "timer")
-                {
-                    time.Time();
-                }
-                if (command == "lower")
-                {
-                    low.Lower();
+                 switch (command)
+                 {
+                    case "string":
+                        stringsAct.stringOperation();
+                        break;
+                    case "fun":
+                        fun.FunVal();
+                        break;
+                    case "exit":
+                        exit.ExitsApp();
+                        break;
+                    case "rock":
+                        rock.RockP();
+                        break;
+                    case "help":
+                        help.help();
+                        break;
+                    case "timer":
+                        time.Time();
+                        break;
+                    case "lower":
+                        low.Lower();
+                        break;
+                    default:
+                        break;    
                 }
                 
             }
